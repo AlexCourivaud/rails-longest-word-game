@@ -1,0 +1,10 @@
+<p> <%=  @letters %> </p>
+
+<form action="/score" method="post" data-turbo="false">
+<p>What is the longest words ?</p>
+  <input type="text" name="score">
+  <input type="submit" value="Play">
+<%#
+<%= hidden_field_tag :authenticity_token, form_authenticity_token %>
+
+</form>
